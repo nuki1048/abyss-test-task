@@ -1,0 +1,15 @@
+.select {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  padding: 8px;
+  border-radius: 14px;
+  width: 100px;
+  color: #fff;
+  outline: none;
+}
+@media (prefers-color-scheme: light) {
+  .select {
+    color: #666;
+  }
+}

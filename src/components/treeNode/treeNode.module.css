@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  width: 16px;
+}
+.button {
+  padding: 4;
+  border: 2px solid #ccc;
+
+  margin-right: 5px;
+}
+.button-margin {
+  margin-right: 5px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+  .button {
+    padding: 4;
+    border: 2px solid #ccc;
+
+    margin-right: 5px;
+  }
+}
